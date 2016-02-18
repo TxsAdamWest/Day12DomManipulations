@@ -3,17 +3,21 @@ console.log(yo!)
 
 document.querySelector("#thanks button").addEventListener('click',function(){
   // TASK #1
+  alert("ow!  don't click me so hard!")
 })
 
 document.querySelector("#double button").addEventListener('click',function(){
   // TASK #2
+  var numP = document.querySelector("#compoundInvestment")
+  var num = parseInt(numP.textContent)
+  numP.textContent = num * 2
 })
 
 
 document.querySelector("#color-circle button").addEventListener('click',function(){
   // TASK #3
-  var circle = document.querySelector("circle-bw")
-  circle.style.background = "black"
+  var circle = document.querySelector("#circle-bw") 
+
   if (circle.style.background === "black") {
   	circle.style.background = "white"
   }
