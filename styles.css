@@ -14,6 +14,7 @@ hr.q-divider{
 }
 .exercise-container > * {
   font-size: medium;
+  border: 2px solid blue;
 }
 
 .prompt h3{

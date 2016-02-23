@@ -60,12 +60,12 @@ document.querySelector("#pig-latin button").addEventListener('click',function(){
 //   listItems = userListEl.querySelectorAll('li.inactive')
 //   for loop
 //     listItems[i].textContent = listItems[i].textContent.reverse()
-// })
+})
 
 document.querySelector("#cycle-image button").addEventListener('click',function(){
   // TASK #8
-  var cityImgEl = document.querySelector('#city-img')
-  var url = cityImgEl.src
-  var url.split = ('/')
-
+  // var cityImgEl = document.querySelector('#city-img')
+  // var url = cityImgEl.src
+  // var url.split = ('/')
+})
 
